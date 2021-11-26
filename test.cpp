@@ -1,5 +1,5 @@
 #include<iostream>
 int main() {
-	cout << "hello world";
+	printf("hellow world");
 	return 0;
 }
