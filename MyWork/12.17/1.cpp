@@ -4,7 +4,7 @@
 using namespace std;
 list<int> my_list;
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.17\\input_1.txt","r",stdin)) {cout<<"no input!"; return 0;}
+    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.17\\input_1","r",stdin)) {cout<<"no input!"; return 0;}
     //ÈËÊý
     int n=0;
     while(~scanf("%d",&n)){
