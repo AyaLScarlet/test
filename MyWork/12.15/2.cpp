@@ -5,9 +5,9 @@ void QuickSort(vector<int>& nums,int l, int r) {
     if(l>=r) return;
     int i=l,j=r;
     while(i<j){
-        //nums[l]ä¸ºpivot
-        //å…ˆåŠ¨jï¼Œå…ˆåŠ¨å³è¾¹,å› ä¸ºåªæœ‰ä¸¤ä¸ªå€¼çš„æ—¶å€™ï¼Œå¦‚æœi++é‚£ä¸€è¡Œå…ˆè¿è¡Œï¼Œ
-        //åˆ™ä¸¤ä¸ªå€¼ä¸€å®šä¸äº¤æ¢ï¼Œä½†æ˜¯å®é™…ä¸Šå¯èƒ½æ˜¯éœ€è¦äº¤æ¢çš„
+        //nums[l]Îªpivot
+        //ÏÈ¶¯j£¬ÏÈ¶¯ÓÒ±ß,ÒòÎªÖ»ÓĞÁ½¸öÖµµÄÊ±ºò£¬Èç¹ûi++ÄÇÒ»ĞĞÏÈÔËĞĞ£¬
+        //ÔòÁ½¸öÖµÒ»¶¨²»½»»»£¬µ«ÊÇÊµ¼ÊÉÏ¿ÉÄÜÊÇĞèÒª½»»»µÄ
         while(i<j&&nums[j]>=nums[l]) j--;
         while(i<j&&nums[i]<=nums[l]) i++;
         swap(nums[i],nums[j]);
@@ -17,7 +17,7 @@ void QuickSort(vector<int>& nums,int l, int r) {
     QuickSort(nums,i+1,r);
 }
 int main() {
-	//å°†æ–‡ä»¶å†…å®¹ä½œä¸ºæ ‡å‡†è¾“å…¥æµ
+	//½«ÎÄ¼şÄÚÈİ×÷Îª±ê×¼ÊäÈëÁ÷
 	if (!freopen("C:\\Users\\15756\\Desktop\\input.txt", "r", stdin)) return 0;
 	int n, m,buff;
 	vector<int> nums;

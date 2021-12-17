@@ -15,7 +15,7 @@ void BubbleSort(vector<int>& nums) {
 	}
 }
 int main() {
-	//灏嗘枃浠跺唴瀹逛綔涓烘爣鍑嗚緭鍏ユ祦
+	//将文件内容作为标准输入流
 	if (!freopen("C:\\Users\\15756\\Desktop\\input.txt", "r", stdin)) return 0;
 	int n, m,buff;
 	vector<int> nums;
