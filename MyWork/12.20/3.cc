@@ -4,7 +4,7 @@
 using namespace std;
 //逐字符处理的时候，句尾的'/n'
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.20\\input_3","r",stdin)) return 0;
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.20\\input_3","r",stdin)) return 0;
     int R,C;
     while(~scanf("%d%d",&R,&C)){
         // char map[R][C];

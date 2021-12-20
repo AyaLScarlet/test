@@ -5,7 +5,7 @@ using namespace std;
 vector<int> table;
 int main() {
 
-	if (!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.16\\input_1.txt", "r", stdin)) return 0;
+	if (!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.16\\input_1.txt", "r", stdin)) return 0;
 	int n, m;
     while(~scanf("%d%d",&n,&m)){
         table.clear();

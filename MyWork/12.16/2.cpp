@@ -4,7 +4,7 @@
 using namespace std;
 stack<char> my_stack;
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.16\\input_2.txt","r",stdin)) return 0;
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.16\\input_2.txt","r",stdin)) return 0;
     char buff;
     while(~scanf("%c",&buff)){
         my_stack.push(buff);

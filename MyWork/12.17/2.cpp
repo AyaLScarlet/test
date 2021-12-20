@@ -6,7 +6,7 @@
 using namespace std;
 set<string> my_set_A,my_set_B;
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.17\\input_2","r",stdin)) {cout<<"no input"<<endl; return 0;}
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.17\\input_2","r",stdin)) {cout<<"no input"<<endl; return 0;}
     int n;
     while(~scanf("%d",&n)&&n){
         char s1[10],s2[10];

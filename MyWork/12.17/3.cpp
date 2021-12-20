@@ -6,7 +6,7 @@
 // ±º‰∏¥‘”∂»O(logn)
 using namespace std;
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.17\\input_3","r",stdin)) return 0;
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.17\\input_3","r",stdin)) return 0;
     int num_of_shop=0;
     while(~scanf("%d",&num_of_shop)){
         int num_of_day;

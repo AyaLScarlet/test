@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int k;
     int n=0;
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.16\\input_3.txt","r",stdin)) return 0;
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.16\\input_3.txt","r",stdin)) return 0;
     while(~scanf("%d",&k)){
         double sum=0;
         int i=1;

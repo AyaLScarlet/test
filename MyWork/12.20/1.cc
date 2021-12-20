@@ -23,7 +23,7 @@ void PrintSet(int n,int k){
 //do{}while()适合已经有初始状态的循环，每次先做，再判断（从1开始）
 //       (2^n)<-->(1<<n)
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.20\\input_1","r",stdin)) return 0;
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.20\\input_1","r",stdin)) return 0;
     int n,k;
     while(~scanf("%d%d",&n,&k)){
         PrintSet(n,k);

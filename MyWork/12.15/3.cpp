@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	//将文件内容作为标准输入流
-	if (!freopen("C:\\Users\\15756\\Desktop\\input.txt", "r", stdin)) return 0;
+	if (!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.15\\input.txt", "r", stdin)) return 0;
 	int n, m,buff;
     int nums[100001];
     memset(nums,0,sizeof(nums));

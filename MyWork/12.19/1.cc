@@ -4,7 +4,7 @@
 #include<string.h>
 using namespace std;
 int main(){
-    if(!freopen("G:\\VSProjects\\ayas_project\\MyWork\\12.19\\input_1","r",stdin)) return 0;
+    if(!freopen("D:\\CodingWorkPlace\\ayas_project\\MyWork\\12.19\\input_1","r",stdin)) return 0;
     int n,m;
     while(~scanf("%d%d",&n,&m)){
         int a[1001];

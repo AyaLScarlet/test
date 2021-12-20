@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 /*include目录*/
-                "G:\\VSProjects\\ayas_project\\MyWork\\include"
+                "D:\\CodingWorkPlace\\ayas_project\\MyWork\\include"
             ],
             "defines": [
                 "_DEBUG",
@@ -13,10 +13,10 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "F:\\mingw_opencv346\\bin\\g++.exe",/*编译器路径*/
+            "compilerPath": "F:\\mingw64\\bin\\g++.exe",/*编译器路径*/
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "${default}"
         }
     ],
     "version": 4
